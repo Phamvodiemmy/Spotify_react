@@ -1,0 +1,37 @@
+/* Căn giữa container và thiết lập chiều cao toàn màn hình */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1db954, #191414);
+    color: #fff;
+  }
+  
+  .login-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .login-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #1db954;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .login-button:hover {
+    background-color: #17a64a;
+    transform: scale(1.05);
+  }
+  
+  .login-button:active {
+    background-color: #128c39;
+    transform: scale(0.95);
+  }
+  

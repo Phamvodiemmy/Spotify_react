@@ -1,0 +1,27 @@
+.track-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 400px;
+  }
+  
+  .track-item img {
+    width: 100px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .track-item h2 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .track-item p {
+    margin: 5px 0;
+  }
+  
+  .track-item audio {
+    margin-top: 10px;
+  }
+  
